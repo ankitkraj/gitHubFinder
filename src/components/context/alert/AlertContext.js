@@ -24,5 +24,5 @@ function AlertContextProvider({ children }) {
   );
 }
 
-export default AlertContext;
-export { AlertContextProvider };
+export default AlertContext; // it will be used whereever we want to use this state
+export { AlertContextProvider }; // it will be used for wrapping

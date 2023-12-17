@@ -18,7 +18,7 @@ function UserSearch() {
     //send entered text to in github context
 
     if (text === "") {
-      setAlert("Please write in text box", "error");
+      setAlert("Please write in text box", "error"); //dispatch login has been written in context it self
     } else {
       fetchUsers(text);
       setText("");
